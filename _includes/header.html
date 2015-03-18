@@ -4,7 +4,32 @@
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="site-nav">
+<div class="contain-to-grid sticky">
+ <nav class=top-bar data-topbar role="navigation" data-options="sticky_on: large">
+  <ul class="title-area">
+   <li class="name"><h1>Celebrating 160 years of opportunity</h1></li>
+   <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+  <section class="top-bar-section">
+   <!-- Right Nav Section -->
+   <ul class="right">
+       <li><a href="index.html" class="">Home</a></li>
+       <li class="has-dropdown"><a href="foundations.html" class="">Foundations</a>
+        <ul class="dropdown">
+          <li><a href="#160">160 years later</a></li>
+          <li><a href="#foundering">&lsquo;Foundering&rsquo; Through History</a></li>
+          <li><a href="#founders-day">Founders&rsquo; Day</a></li>
+        </ul>
+       </li>
+       <li><a href="/blog" class="">This Week in EC History</a></li>
+       <li><a href="https://tagboard.com/eurekacollege/search" class="">#EurekaCollege</a></li>
+      </ul>
+  </section>
+ </nav>
+</div>
+
+
+    /*<nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
           <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
